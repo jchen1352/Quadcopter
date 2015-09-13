@@ -11,13 +11,10 @@ int8_t getRoll(); // leaning right / left: positive -> right
 uint8_t getHeight();
 
 // set the motor strength: 0 -> off, 255 -> max thrust
-void setThrust(uint8_t&, uint8_t); //pass motor pointer instead of using 4 different functions
 
-/*
 void setFR(uint8_t); // front right
 void setFL(uint8_t); // front left
 void setBR(uint8_t); // back right
 void setBL(uint8_t); // back left
-*/
 
 #endif
